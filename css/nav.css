@@ -65,6 +65,18 @@
   height: 100%;
 }
 
+.other{
+  visibility: hidden;
+  position: fixed;
+}
+
+.other.open{
+  position: relative;
+  visibility: visible;
+  height: 100%;
+  color: #111517;
+}
+
 .overlay.open li {
   animation: fadeInRight .5s ease forwards;
   animation-delay: .35s;
@@ -88,7 +100,7 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 40px;
-  font-family: 'Glegoo', serif;
+  font-family: 'Kreon', serif;
   font-weight: 400;
 	text-align: left;
 	margin: 0 200px;
